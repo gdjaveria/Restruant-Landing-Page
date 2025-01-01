@@ -12,22 +12,24 @@ function Navbar() {
 
 <ul className="md:flex hidden gap-10 items-center hover:underline hover:text-gray-800 font-semibold text-[20px]">
     <li>
-    <Link href={"/"}>Home</Link></li>
+    <Link href={"/#"}>Home</Link></li>
     <li>
-    <Link href={"/"}>About</Link></li>
+    <Link href={"/about"}>About</Link></li>
     <li>
-    <Link href={"/"}>Menu</Link></li>
+    <Link href={"/menu"}>Menu</Link></li>
     <li>
-    <Link href={"/"}>Services</Link></li>
+    <Link href={"/services"}>Services</Link></li>
     <li>
-    <Link href={"/"}>Contact Us</Link></li>
+    <Link href={"/contact"}>Contact</Link></li>
 
     <button className="bg-white text-red-600 px-6 py-1 rounded-3xl hover:text-gray-800">
         Sing Up
     </button>
 </ul>
 
-<MdOutlineRestaurantMenu className="menu-btn md:hidden text-accent font-[900]" size={40} />
+<MdOutlineRestaurantMenu className="menu-btn md:hidden text-accent font-[900]" 
+
+size={40} />
 </div>
 </div>
 

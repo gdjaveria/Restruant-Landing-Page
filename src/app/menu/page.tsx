@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import Dash from "./dash";
-import MenuCard from "./menuCard";
+import Dash from "../dash";
+import MenuCard from "../menuCard";
 
 const menuData= [
     {
@@ -67,12 +67,14 @@ function Menu () {
     return (
         <div className="container pt-40">
             <div className="space-y-4 w-fit mx-auto text-center">
-         <h2 className="text-4xl md:text-6xl font-bold">
+         <h2 className="text-4xl md:text-7xl font-bold">
            Our <span className="text-accent"> Menu </span></h2>
 
-         <p className="text-gray-700 pt-5 font-medium">
-            A delightful journey through flavors
-         our menu is crafted to excite every palate
+         <p className="text-gray-700 pt-5 font-medium text-center px-12">
+         Discover a menu crafted to delight your senses, featuring fresh ingredients<br/>
+        and flavors inspired by global and local cuisines. From comforting classics to bold,<br/>
+        innovative dishes, we offer something to satisfy every craving and create<br/> 
+        unforgettable dining moments
                  <br/></p>
   <div className="w-fit mx-auto">
     <Dash />
@@ -80,19 +82,19 @@ function Menu () {
 </div>
  </div>
  <ul className="mt-8 hidden sm:flex  md:gap-10 w-fit px-8 mx-auto">
-<li className=" text-red-600 hover:underline hover:opacity-50 hover:cursor-pointer hover:text-slate-800 font-semibold text-xl p-1">
+<li className=" text-red-600 hover:underline hover:opacity-50 hover:cursor-pointer hover:text-slate-900 font-semibold text-xl p-1">
      Appetizers </li>
- <li className=" text-red-600 hover:underline hover:opacity-50 hover:cursor-pointer  hover:text-slate-800 font-semibold text-xl p-1">
+ <li className=" text-red-600 hover:underline hover:opacity-50 hover:cursor-pointer  hover:text-slate-900 font-semibold text-xl p-1">
     Breakfast</li>
- <li className=" text-red-600 hover:underline hover:opacity-50 hover:cursor-pointer  hover:text-slate-800 font-semibold text-xl p-1">
+ <li className=" text-red-600 hover:underline hover:opacity-50 hover:cursor-pointer  hover:text-slate-900 font-semibold text-xl p-1">
     Salad</li>
-<li className=" text-red-600 hover:underline hover:opacity-50 hover:cursor-pointer  hover:text-slate-800 font-semibold text-xl p-1">
+<li className=" text-red-600 hover:underline hover:opacity-50 hover:cursor-pointer  hover:text-slate-900 font-semibold text-xl p-1">
     Nuggets & Fish</li>
-<li className=" text-red-600 hover:underline hover:opacity-50 hover:cursor-pointer  hover:text-slate-800 font-semibold text-xl p-1">
+<li className=" text-red-600 hover:underline hover:opacity-50 hover:cursor-pointer  hover:text-slate-900 font-semibold text-xl p-1">
     Soups</li>
- <li className=" text-red-600 hover:underline hover:opacity-50 hover:cursor-pointer hover:text-slate-800  font-semibold text-xl p-1">
+ <li className=" text-red-600 hover:underline hover:opacity-50 hover:cursor-pointer hover:text-slate-900  font-semibold text-xl p-1">
     Desert</li>
-<li className=" text-red-600 hover:underline hover:opacity-50 hover:cursor-pointer  hover:text-slate-800 font-semibold text-xl p-1">
+<li className=" text-red-600 hover:underline hover:opacity-50 hover:cursor-pointer  hover:text-slate-900 font-semibold text-xl p-1">
     Cocktail</li>
         </ul>
 

@@ -1,5 +1,5 @@
 import React from "react";
-import Dash from "./dash";
+import Dash from "../dash";
 import Image from "next/image";
 
  function Feature (){
