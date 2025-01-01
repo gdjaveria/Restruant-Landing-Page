@@ -5,15 +5,24 @@ import Image from "next/image";
  function Feature (){
     return(
         <div className="container pt-20 sm:pt-40 ">
-            <h2 className="text-6xl font-bold px-8">Our</h2>
-            <h2 className="text-6xl font-bold px-8">
-                Featured <span className="text-accent"> Food </span>
+            <h2 className="text-4xl md:text-7xl font-bold px-8 text-center">Our</h2>
+            <h2 className="text-4xl md:text-7xl font-bold px-8 text-center mt-4">
+                Featured <span className="text-red-700 text-4xl md:text-7xl"> Food </span>
             </h2>
 
-<p className="max-w-[300px] pt-10 px-10 py-10 font-medium text-gray-700">
-Indulge in flavors that make every bite unforgettable From our kitchen 
-to your heart savor the love in every dish Because great food is
- more than a meal—its a moment of joy
+<p className="text-gray-700 pt-5 font-medium text-center px-8 mt-6">
+Indulge in our feature dishes where culinary artistry meets irresistible flavor<br/>
+Each signature creation is thoughtfully crafted with the freshest ingredients<br/> 
+blending tradition and innovation to bring you a taste experience like no other<br/> 
+From savory delights to sweet indulgences, our feature foods are the stars of<br/> 
+our menu designed to leave you craving your next bite
+
+
+
+
+
+
+
 </p>
 
 <Dash/>

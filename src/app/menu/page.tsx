@@ -68,9 +68,9 @@ function Menu () {
         <div className="container pt-40">
             <div className="space-y-4 w-fit mx-auto text-center">
          <h2 className="text-4xl md:text-7xl font-bold">
-           Our <span className="text-accent"> Menu </span></h2>
+           Our <span className="text-black"> Menu </span></h2>
 
-         <p className="text-gray-700 pt-5 font-medium text-center px-12">
+         <p className="text-gray-700 pt-5 font-medium text-center px-12 mt-6">
          Discover a menu crafted to delight your senses, featuring fresh ingredients<br/>
         and flavors inspired by global and local cuisines. From comforting classics to bold,<br/>
         innovative dishes, we offer something to satisfy every craving and create<br/> 
