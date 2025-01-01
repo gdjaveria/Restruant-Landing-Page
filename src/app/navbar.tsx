@@ -3,6 +3,14 @@ import Image from "next/image";
 import Link from "next/link";
 import { MdOutlineRestaurantMenu } from "react-icons/md"
 
+import {
+    Sheet,
+    SheetContent,
+    SheetTrigger,
+  } from "@/components/ui/sheet"
+  
+
+
 function Navbar() {
     return (
 <div className="container z-50 max-w-[1280px] py-2 px-6 fixed top-0 w-[100vw] bg-red-700 text-white ">
@@ -27,9 +35,27 @@ function Navbar() {
     </button>
 </ul>
 
-<MdOutlineRestaurantMenu className="menu-btn md:hidden text-accent font-[900]" 
+<Sheet>
+  <SheetTrigger className="md:hidden">
+    < MdOutlineRestaurantMenu size={30}  className="text-white"/>
+    </SheetTrigger>
+  <SheetContent>
 
-size={40} />
+  <ul className='px-8 py-5 gap-10 items-center text-xl font-semibold'>
+  <li>
+    <Link href={"/#"}>Home</Link></li>
+    <li>
+    <Link href={"/about"}>About</Link></li>
+    <li>
+    <Link href={"/menu"}>Menu</Link></li>
+    <li>
+    <Link href={"/services"}>Services</Link></li>
+    <li>
+    <Link href={"/contact"}>Contact</Link></li>
+    </ul>
+    </SheetContent>
+    </Sheet>
+
 </div>
 </div>
 
